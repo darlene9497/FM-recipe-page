@@ -147,3 +147,26 @@ tr:last-child td {
 td:last-child {
     color: var(--Brown800);
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    main {
+        padding: 0 30px;
+        border-radius: 0;
+    }
+
+    img {
+        width: calc(100% + 60px);
+        margin-left: -30px;
+        margin-right: -30px;
+        display: block;
+        border-radius: 0;
+    }
+
+    p, li {
+        font-size: 18px;
+    }
+}
