@@ -151,6 +151,7 @@ td:last-child {
 @media screen and (max-width: 768px) {
     body {
         padding: 0;
+        background: var(--White);
     }
 
     main {
