@@ -8,3 +8,142 @@
     --Rose800: hsl(332, 51%, 32%);
     --Rose50: hsl(330, 100%, 98%);
 }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Stone100);
+    padding: 100px 300px;
+    font-family: "Outfit", serif;
+}
+
+main {
+    background-color: var(--White);
+    padding: 45px;
+    border-radius: 30px;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-weight: 100;
+    color: var(--Stone900);
+}
+
+p {
+    font-size: 14px;
+    color: var(--Stone600);
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+ul { 
+    padding-left: 1.35rem;
+}
+
+li {
+    padding-left: 1.1rem;
+}
+
+.prep-time {
+    margin-top: 30px;
+    background-color: var(--Rose50);
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.prep-time h2 {
+    color: var(--Rose800);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.prep-time ul li::marker {
+    color: var(--Rose800);;
+}
+
+.prep-time li {
+    color: var(--Stone600);
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 1.2rem;
+}
+
+.ingredients {
+    margin-bottom: 30px;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+    color: var(--Brown800);
+    font-weight: 400;
+}
+
+.ingredients ul li::marker,
+.instructions ol li::marker {
+    color: var(--Brown800);
+    font-weight: bold;
+}
+
+.ingredients li,
+.instructions li {
+    color: var(--Stone600);
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 1.2rem;
+}
+
+.instructions {
+    border: 1px solid var(--Stone150);
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
+}
+
+.instructions ol {
+    padding-left: 1.35rem;
+}
+
+.instructions li {
+    line-height: 1.7;
+}
+
+.nutrition {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding-left: 25px;
+    border-bottom: 1px solid var(--Stone150);
+    line-height: 3;
+    font-size: 14px;
+}
+
+td:nth-child(2) {
+    padding-right: 15px;
+}
+
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+td:last-child {
+    color: var(--Brown800);
+}
